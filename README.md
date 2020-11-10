@@ -14,10 +14,8 @@ Mini Projek Book App
   - Membuat seeder untuk data pertama dalam database
   - Membuat model book
   - Memanggil model book di dalam BooksController pada direktori app\Http\Controllers
-  - Membuat route untuk memanggil BookController
+  - Membuat method untuk memanggil BookController
   - Membuat route baru lagi untuk mencari book berdasarkan id
-  - Membuat method baru pada BookController
-  - Membuat route baru pada web.php
   - Menjalankan projek dengan command "php -S localhost:8000 -t public"
   - Tes projek pada insomnia atau postman
 
