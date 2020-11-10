@@ -24,5 +24,13 @@ $router->get('/key', function(){
 });
 
 $router->get('books','BooksController@index');
-
 $router->get('books/{id}','BooksController@getBookById');
+$router->post('books','BooksController@postBook');
+$router->put('books/{id}','BooksController@putBookById');
+$router->delete('books/{id}','BooksController@deleteBookById');
+
+$router->get('author','AuthorController@index');
+$router->get('author/{id}','AuthorController@getAuthorById');
+$router->post('author','AuthorController@postAuthor');
+$router->put('author/{id}','AuthorController@putAuthorById');
+$router->delete('author/{id}','AuthorController@deleteAuthorById');

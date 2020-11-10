@@ -20,3 +20,8 @@ Mini Projek Book App
   - Membuat route baru pada web.php
   - Menjalankan projek dengan command "php -S localhost:8000 -t public"
   - Tes projek pada insomnia atau postman
+
+- BookApp Challenge 
+  - Add CRUD for Book
+  - Migrate new table for Author
+  - Create CRUD for Author
